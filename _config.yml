@@ -1,6 +1,6 @@
 # SITE CONFIGURATION
 baseurl: ""
-url: "https://alexanderhuth.de"
+url: "https://alexanderhuth.com"
 
 # THEME-SPECIFIC CONFIGURATION
 theme_settings:
@@ -14,7 +14,7 @@ theme_settings:
   # Header and footer text
   hero_text: "I enable great SEO."
   header_feature_image:
-  footer_text: "alexanderhuth.de"
+  footer_text: "alexanderhuth.com"
 
   # Icons
   rss: false
@@ -27,6 +27,7 @@ theme_settings:
   strava: "15011993"
   phone: "004917650122042"
   calendly: "alexanderhuth"
+  calendly_cta: "first"
   
   # Scripts
   google_analytics: # Tracking ID, e.g. "UA-000000-01"
