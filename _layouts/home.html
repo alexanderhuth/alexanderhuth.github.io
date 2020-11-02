@@ -1,0 +1,13 @@
+---
+layout: default
+---
+
+  {% if site.theme_settings.hero_text %}
+  <section class="hero"{% if site.theme_settings.hero_feature_image %} style="background-image: url('{{ site.baseurl }}/{{ site.theme_settings.hero_feature_image }}')" {% endif %}>
+    <h1>{{ site.theme_settings.hero_text }}</h1>
+  </section>
+  {% endif %}
+  
+  <article class="post-content">{{ content }}</article>
+  
+  {% include contact.html %}

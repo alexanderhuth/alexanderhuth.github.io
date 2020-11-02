@@ -1,0 +1,77 @@
+// Header text feature
+.hero {
+  @extend %padding-regular;
+  display: inline-block;
+  width: 100%;
+  background-color:$header-desc-background-color;
+  background-size: cover;
+  font-size: 1.2em;
+  text-align: center;
+  color: $header-desc-text-color;
+}
+.hero p:last-child {
+  margin-bottom: 0;
+}
+.hero a {
+  color: $header-desc-link-color;
+}
+
+// Get in touch
+.contact {
+    @extend %padding-regular; 
+    width: 100%;
+    margin-bottom: 0;
+    display: inline-block;
+    background-size: $feature-image-size;
+    background-color: $secondary-color;
+    p a {
+      @extend .body-link;
+    }
+}
+
+// Services
+.services {
+  @extend %padding-small;
+  padding-left: 0;
+  padding-right: 0;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(288px, 1fr));
+  grid-gap: 1em;
+  .service-detail {
+    @extend %padding-small;
+    background-color: $almost-white-color;
+  }
+}
+
+// Profile
+.profile {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(288px, 1fr));
+  align-items: center;
+  .fa-ul {
+    margin-left: 0;
+  }
+  .portrait {
+    height: 100%;
+    @extend %padding-regular;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  li {
+    margin-left: 0.5em;
+  }
+  i {
+    padding-left: 1em;
+    position: static;
+  }
+  a {
+    color: $stroke-color;
+  }
+  a:hover {
+    text-decoration: none;
+  }
+  img {
+    border-radius: 50%;
+  }
+}

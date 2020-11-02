@@ -1,0 +1,17 @@
+// External
+@import 'external/reset';
+@import 'external/syntax';
+
+// Base
+@import 'base/variables';
+@import 'base/global';
+@import 'base/utility';
+
+// Pages and posts
+@import 'layouts/posts';
+@import 'layouts/index';
+@import 'layouts/search';
+
+// Partials
+@import 'includes/header';
+@import 'includes/footer';

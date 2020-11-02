@@ -1,0 +1,62 @@
+# SITE CONFIGURATION
+baseurl: ""
+url: "https://alexanderhuth.de"
+
+# THEME-SPECIFIC CONFIGURATION
+theme_settings:
+  # Meta
+  title: "Alexander Huth"
+  avatar: assets/img/logo.png
+  favicon: assets/favicon.ico
+  gravatar: # Email MD5 hash
+  description: "Berlin-based Marketing consultant, advisor and mentor focused on organic growth."
+
+  # Header and footer text
+  hero_text: "I enable great SEO."
+  header_feature_image:
+  footer_text: "alexanderhuth.de"
+
+  # Icons
+  rss: false
+  email_address: "alexander.huth@gmail.com"
+  github: "alexanderhuth"
+  instagram: "alexanderhuth"
+  linkedin: "alexanderhuth"
+  twitter: "alexanderhuth"
+  letterboxd: "alexanderh"
+  strava: "15011993"
+  phone: "004917650122042"
+  calendly: "alexanderhuth"
+  
+  # Scripts
+  google_analytics: # Tracking ID, e.g. "UA-000000-01"
+  search: false # Enable the search feature
+
+  # Localization strings
+  str_follow_on: "Follow on"
+  str_rss_follow: "Follow RSS feed"
+  str_email: "Email"
+  str_next_post: "Next post"
+  str_previous_post: "Previous post"
+  str_next_page: "Next"
+  str_previous_page: "Prev"
+  str_continue_reading: "Continue reading"
+  str_search_no_results: "No results found."
+
+  # Colors, typography and padding
+  google_fonts: "Source+Sans+Pro:400,700,700italic,400italic"
+
+  # Navigation
+  navigation: false
+  post_navigation: true
+  site_navigation_sort: false
+  
+# BUILD SETTINGS
+markdown: kramdown
+highlighter: rouge
+sass:
+  sass_dir: _sass
+  style: :compressed
+exclude:
+  - Gemfile
+  - Gemfile.lock
