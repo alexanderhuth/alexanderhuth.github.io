@@ -28,6 +28,7 @@ theme_settings:
   phone: "004917650122042"
   calendly: "alexanderhuth"
   calendly_cta: "first"
+  about_me: "alexanderhuth"
   
   # Scripts
   google_analytics: # Tracking ID, e.g. "UA-000000-01"
