@@ -7,6 +7,7 @@
 - Communication with stakeholders, investors, the management team, peers and the company
 - Training and up-skilling
 - Stakeholder and dependency management
+
 #### Review an existing setup
 - Tools and dashboards etc.
 - People, structures, teams
