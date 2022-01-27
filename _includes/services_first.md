@@ -1,5 +1,5 @@
 ### Operational Excellence
-#### Review existing processes:
+#### Review existing processes
 - Strategy: creation, learning and innovation
 - Planning on strategical and tactical level
 - Goal-setting on strategical and tactical level
