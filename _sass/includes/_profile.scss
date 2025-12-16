@@ -1,0 +1,34 @@
+/* Styles for the contact/profile block */
+.profile {
+  .vcard {
+    h2 {
+      margin-bottom: 0.5rem;
+    }
+
+    .contact-list {
+      margin: 0; /* align the list with the heading */
+      padding-left: 0; /* we'll add our own padding for text to account for icons */
+
+      li {
+        position: relative;
+        padding-left: 2.4rem; /* space for the icon */
+        margin-bottom: 0.6rem;
+        display: flex;
+        align-items: center; /* vertically center icon and text */
+      }
+
+      /* adjust the positioned fa-li icons so they align with the heading */
+      .fa-li {
+        position: absolute;
+        left: 0;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 1.6rem;
+        text-align: center;
+        color: $text-color;
+      }
+
+      a { margin-left: 0.2rem; }
+    }
+  }
+}
