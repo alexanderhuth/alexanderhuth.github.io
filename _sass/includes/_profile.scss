@@ -11,11 +11,17 @@
       margin: 0 !important;
       padding-left: 0 !important;
 
+      /* specifically override Font Awesome's ul.fa-ul rules */
+      &.fa-ul {
+        margin-left: 0 !important;
+        padding-left: 0 !important;
+      }
+
       > li {
         margin-bottom: 0.6rem;
         line-height: 1.2;
         display: grid;
-        grid-template-columns: 2.4rem 1fr;
+        grid-template-columns: 2.6rem 1fr;
         grid-column-gap: 0.6rem;
         align-items: center;
         padding-left: 0; /* grid handles spacing */
@@ -25,10 +31,12 @@
       .fa-li {
         position: static;
         display: inline-block;
-        width: 2.4rem;
+        width: 2.6rem;
         text-align: center;
         color: $text-color;
         margin-right: 0;
+        margin-left: 0 !important;
+        justify-self: center;
       }
 
       a { margin-left: 0.2rem; }
