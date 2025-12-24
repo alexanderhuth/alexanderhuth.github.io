@@ -17,7 +17,7 @@ Professional/personal website of Alexander Huth.
 - Global styles: `assets/css/main.css` defines the theme palettes and UI components; a small script in `html-head.html` randomly applies a theme class.
 - Data: `concerts.md` reads from `_data/concerts.yml` (sorted and grouped by year).
 - Navigation: the footer links to `/slashes/` and `/links/`; `/slashes/` auto-lists every non-post page.
-- Config: `_config.yml` sets site metadata, feeds, and social links; `README` is excluded from builds.
+- Config: `_config.yml` sets site metadata, feeds, and social links; `README.md` is excluded from builds.
 
 ## Handy context for Codex
 - Treat root-level `.md` files as pages with `layout: page`; posts need dated filenames under `_posts/`.
