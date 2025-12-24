@@ -1,5 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://alexanderhuth.com/sitemap.xml
-Sitemap: https://alexanderhuth.com/feed.xml
