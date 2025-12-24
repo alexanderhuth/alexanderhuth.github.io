@@ -3,7 +3,7 @@ layout: post
 title: Using Jekyll's Data Files to list concerts
 description: A quick note on powering the /concerts page from a JSON data file in Jekyll.
 robots: noindex
-permalink: /blog/concerts-data/
+permalink: /posts/concerts-data/
 ---
 
 # Using Jekyll's Data Files to list concerts
