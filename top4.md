@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Top4
-seo_title: My definitive Top 4s
+seo_title: Top 4s
 permalink: /top4/
 ---
 
