@@ -12,6 +12,12 @@ Professional/personal website of Alexander Huth.
 - Serve locally with `bundle exec jekyll serve`; the site will be available at the printed localhost URL.
 - GitHub Pages uses the same `github-pages` gem, so local builds match production.
 
+## Front matter to use
+- Pages: set `layout: page` and `title:`; optional `seo_title:` overrides the `<title>`, `description:` feeds the meta description, and `permalink:` controls the URL (keep trailing slash for directories).
+- Posts: use `layout: post`; the date comes from the filename (YYYY-MM-DD) unless overridden via `date:`. `title:`, `description:`, and `permalink:` work the same as pages.
+- Robots: add `robots: noindex` to keep a page/post out of indexes; otherwise it defaults to `index, follow`.
+- Metadata: the `<title>` picks `page.seo_title` → `page.title` → `site.title` in `_includes/html-head.html`, and canonical tags are auto-generated from `page.url`.
+
 ## Structure to remember
 - Layouts: `home.html`, `page.html`, `post.html` use shared head/header/footer includes.
 - Global styles: `assets/style.css` defines the theme palettes and UI components; a small script in `html-head.html` randomly applies a theme class.

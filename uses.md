@@ -21,5 +21,3 @@ Tools, gear, and software I rely on. Inspired by [uses.tech](https://uses.tech).
     - Hario V60 Drip Decanter
     - Timemore Black Mirror scales
 
-## This website
-This site runs on Jekyll with simple Liquid templates, a tiny inline script to randomize color themes, and a single handmade CSS file—no build pipeline or JavaScript beyond that. It’s published as static HTML on GitHub Pages, uses a domain from iwantmyname, and I work on it in Visual Studio Code with OpenAI Codex.
