@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+
+  <head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  
+  <title>Using Jekyll's Data Files to list concerts | alexanderhuth.com</title>
+  
+    <meta name="description" content="A quick note on powering the /concerts page from a JSON data file in Jekyll.">
+  
+  
+  
+    <meta name="robots" content="noindex, follow">
+  
+  <link rel="canonical" href="http://localhost:4000/blog/concerts-data/">
+  <script>
+    (function () {
+      var themes = ["sand", "amber", "seaglass", "coral", "dawn", "royal", "forest", "ruby", "sky", "fireball"];
+      document.documentElement.classList.add(themes[Math.random() * themes.length | 0]);
+    })();
+  </script>
+  <link rel="icon" href="/assets/favicon.ico" sizes="any">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon-16x16.png">
+  <link rel="icon" type="image/png" sizes="48x48" href="/assets/favicon-48x48.png">
+  <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
+  <link rel="alternate" type="application/atom+xml" title="Alexander Huth feed" href="http://localhost:4000/feed.xml">
+  <link rel="stylesheet" href="/assets/css/main.css">
+</head>
+
+  <body>
+    <header class="site-header" aria-label="Site logo">
+  <div class="site-brand">
+    <a class="brand-logo-link" href="/" aria-label="Alexander Huth home">
+      <div class="logo site-logo-bars" aria-hidden="true">
+        <div class="tile"></div>
+        <div class="tile rounded"></div>
+        <div class="tile split">
+          <div class="bar top"></div>
+          <div class="bar bottom"></div>
+        </div>
+        <div class="tile"></div>
+      </div>
+    </a>
+  </div>
+</header>
+
+    <main role="main">
+      
+        <p class="post-date">December 23, 2025</p>
+      
+      <h1 id="using-jekylls-data-files-to-list-concerts">Using Jekyll’s Data Files to list concerts</h1>
+
+<p>On my <a href="/concerts/">/concerts</a> page, I list every concert I’ve been to. Instead of manually updating that page, I store all the show details in a single data file by making use of <a href="https://jekyllrb.com/docs/datafiles/">Jekyll’s Data Files feature</a>.</p>
+
+<p>Everything lives in <code class="language-plaintext highlighter-rouge">_data/concerts.json</code>, with each entry containing the artist, date, venue, city, setlist URL (and. when relevant, a festival name). The page template pulls directly from that file using <code class="language-plaintext highlighter-rouge">site.data.concerts</code> and renders the list from there.</p>
+
+<p>When the page builds, the template sorts the shows by date, groups them by year, and generates jump links for quick navigation between years. If a <code class="language-plaintext highlighter-rouge">festival</code> field is present, the festival name is shown instead of the venue automatically.</p>
+
+<p>This setup is intentionally low-maintenance. I update one JSON file, rebuild the site, and the concerts page is regenerated automatically, with no extra tooling or hand-editing required.</p>
+
+      <p class="post-back"><a href="/posts/">← All posts</a></p>
+    </main>
+    <footer class="site-footer">
+  <div class="footer-left">
+    <a class="brand-link" href="/">Alexander Huth</a>
+  </div>
+  <div class="footer-right">
+    <a href="/slashes/">Slashes</a> · <a href="/links/">Links</a>
+  </div>
+</footer>
+
+  </body>
+</html>
+

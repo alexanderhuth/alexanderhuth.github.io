@@ -1,0 +1,20 @@
+---
+layout: null
+permalink: /sitemap.xml
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+{% assign pages = site.pages | concat: site.posts %}
+{% for item in pages %}
+    {% assign robots_val = item.robots | default: item.Robots | default: "index, follow" | downcase %}
+    {% assign url_lc = item.url | downcase %}
+    {% assign ext4 = url_lc | slice: -4, 4 %}
+    {% assign ext5 = url_lc | slice: -5, 5 %}
+    {% if robots_val contains "noindex" %}{% continue %}{% endif %}
+    {% if url_lc contains "/404" %}{% continue %}{% endif %}
+    {% if ext4 == ".css" or ext4 == ".xml" or ext5 == ".xml/" %}{% continue %}{% endif %}
+      <url>
+        <loc>{{ item.url | absolute_url }}</loc>
+      </url>
+  {% endfor %}
+</urlset>

@@ -1,64 +1,40 @@
-# SITE CONFIGURATION
-baseurl: ""
+# --- Site identity ---
+title: Alexander Huth
+description: Personal website of Alexander Huth
+author: Alexander Huth
 url: "https://alexanderhuth.com"
+baseurl: ""   # must remain empty for user sites + custom domains
+repository: alexanderhuth/alexanderhuth.github.io
 
-# THEME-SPECIFIC CONFIGURATION
-theme_settings:
-  # Meta
-  title: "Alexander Huth"
-  avatar: assets/img/logo.png
-  favicon: assets/favicon.ico
-  gravatar: # Email MD5 hash
-  description: "Berlin-based Marketing consultant, advisor and mentor focused on organic growth."
+# --- Localization ---
+timezone: Europe/Berlin
 
-  # Header and footer text
-  hero_text: "I enable great SEO."
-  header_feature_image:
-  footer_text: "Alexander Huth"
-
-  # Icons
-  rss: false
-  email_address: "alexander.huth@gmail.com"
-  github: "alexanderhuth"
-  instagram: "alexanderhuth"
-  linkedin: "alexanderhuth"
-  twitter: "alexanderhuth"
-  letterboxd: "alexanderh"
-  strava: "15011993"
-  phone: "004917650122042"
-  calendly: "alexanderhuth"
-  calendly_cta: "meet"
-  about_me: "alexanderhuth"
-  
-  # Scripts
-  google_analytics: # Tracking ID, e.g. "UA-000000-01"
-  search: false # Enable the search feature
-
-  # Localization strings
-  str_follow_on: "Follow on"
-  str_rss_follow: "Follow RSS feed"
-  str_email: "Email"
-  str_next_post: "Next post"
-  str_previous_post: "Previous post"
-  str_next_page: "Next"
-  str_previous_page: "Prev"
-  str_continue_reading: "Continue reading"
-  str_search_no_results: "No results found."
-
-  # Colors, typography and padding
-  google_fonts: "Source+Sans+Pro:400,700,700italic,400italic"
-
-  # Navigation
-  navigation: false
-  post_navigation: true
-  site_navigation_sort: false
-  
-# BUILD SETTINGS
+# --- Build settings ---
 markdown: kramdown
 highlighter: rouge
-sass:
-  sass_dir: _sass
-  style: :compressed
+permalink: pretty
+
+# --- Plugins ---
+plugins:
+  - jekyll-feed
+
+# --- Exclude from build ---
 exclude:
   - Gemfile
   - Gemfile.lock
+  - node_modules
+  - vendor
+  - README.md
+
+# --- Social / Profile links ---
+socials:
+  linkedin: https://www.linkedin.com/in/alexanderhuth/
+  calendly: https://calendly.com/alexanderhuth
+  github: https://github.com/alexanderhuth
+  letterboxd: https://letterboxd.com/alexanderh/
+  serializd: https://www.serializd.com/user/alexanderh/profile
+  recordclub: https://record.club/alexanderh
+  setlist: https://www.setlist.fm/user/alexanderh
+  strava: https://www.strava.com/athletes/15011993
+  discogs: https://www.discogs.com/user/alexanderhuth
+  instagram: https://www.instagram.com/alexanderhuth/
