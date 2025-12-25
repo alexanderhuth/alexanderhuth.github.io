@@ -6,7 +6,7 @@ permalink: /concerts/
 
 # Concerts
 
-Shows I've attended over the years.
+Live shows and festival gigs I've attended over the years.
 
 {% assign shows = site.data.concerts | sort: "date" | reverse %}
 {% assign grouped = shows | group_by_exp: "show", "show.date | date: '%Y'" %}
@@ -22,6 +22,7 @@ Shows I've attended over the years.
   {% endif %}
   <h2 id="{{ year.name | slugify }}">{{ year.name }}</h2>
   <p class="concert-meta"><em>Attended {{ gigs }} gigs in {{ cities.size }} {{ city_label }}.</em></p>
+
   <ul>
     {% for show in year.items %}
       {% assign place = show.festival | default: show.venue %}
