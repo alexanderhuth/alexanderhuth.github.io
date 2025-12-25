@@ -8,7 +8,6 @@ Professional/personal website of Alexander Huth.
 - Colors and typography are handled in `assets/style.css` with a random theme class added in `_includes/html-head.html`.
 
 ## Local development
-- Install Ruby (with Bundler) and run `bundle install`.
 - Serve locally with `bundle exec jekyll serve`; the site will be available at the printed localhost URL.
 - GitHub Pages uses the same `github-pages` gem, so local builds match production.
 
@@ -24,6 +23,7 @@ Professional/personal website of Alexander Huth.
 - Data: `concerts.md` reads from `_data/concerts.yml` (sorted and grouped by year).
 - Navigation: the footer links to `/slashes/` and `/links/`; `/slashes/` auto-lists every non-post page.
 - Config: `_config.yml` sets site metadata, feeds, and social links; `README.md` is excluded from builds.
+- Lists: to get the compact emoji list style, append `{: .emoji-list}` after a list in Markdown (used on `links.md` and `now.md`). Other lists can stay plain.
 
 ## Handy context for Codex
 - Treat root-level `.md` files as pages with `layout: page`; posts need dated filenames under `_posts/`.

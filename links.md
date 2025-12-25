@@ -18,4 +18,4 @@ Find me here:
 - 🎸 Concert diary on [setlist.fm]({{ site.socials.setlist }}).
 - 🚴 [Strava]({{ site.socials.strava }}) or it didn't happen.
 - 📸 Haven't posted on [Instagram]({{ site.socials.instagram }}) in a while...
-{: .link-list}
+{: .emoji-list}

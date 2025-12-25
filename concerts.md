@@ -22,7 +22,7 @@ Shows I've attended over the years.
   {% endif %}
   <h2 id="{{ year.name | slugify }}">{{ year.name }}</h2>
   <p class="concert-meta"><em>Attended {{ gigs }} gigs in {{ cities.size }} {{ city_label }}.</em></p>
-  <ul class="link-list concert-list">
+  <ul>
     {% for show in year.items %}
       {% assign place = show.festival | default: show.venue %}
       <li>

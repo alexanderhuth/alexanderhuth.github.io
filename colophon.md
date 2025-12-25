@@ -13,7 +13,8 @@ No tracking, no cookies.
 
 Content is written in Markdown. Layouts and includes live alongside the pages and posts. The [concerts page](/concerts/) reads structured data from `_data/concerts.json`, while [/slashes/](/slashes/) auto-lists non-post pages.
 
+The slash page itself is inspired by [slashpages.net](https://slashpages.net). Will keep adding slashes over time.
+
 A single handmade stylesheet (`assets/style.css`) handles everything. An inline snippet randomly applies one of the theme classes (`sand`, `amber`, `seaglass` etc.) to rotate background colors. There are no external fonts, client-side frameworks, or build steps for CSS/JS.
 
-Edited in Visual Studio Code, previewed locally with Jekyll on my Mac, versioned on GitHub, and published as static HTML to GitHub Pages. Drafted with a little help from Codex.
-
+Built in Visual Studio Code with a little help from Codex, previewed locally with Jekyll, versioned on GitHub, and published as static HTML to GitHub Pages.
