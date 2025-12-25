@@ -8,8 +8,10 @@ body {
   margin: 0 auto;
   padding: 2.5rem 1.5rem 1.5rem;
   min-height: 100vh;
+  min-height: 100dvh; /* use dynamic viewport to keep footer above mobile browser chrome */
   display: flex;
   flex-direction: column;
+  padding-bottom: calc(1.5rem + env(safe-area-inset-bottom, 0));
 }
 
 *,
