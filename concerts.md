@@ -6,7 +6,13 @@ permalink: /concerts/
 
 # Concerts
 
-Live shows and festival gigs I've attended over the years.
+A list of (almost) all live performances I've attended over the years.
+
+{% assign show_count = site.data.concerts | size %}
+{% assign artist_count = site.data.concerts | map: "artist" | uniq | size %}
+
+Shows: {{ show_count }}  
+Bands and artists: {{ artist_count }}
 
 {% assign shows = site.data.concerts | sort: "date" | reverse %}
 {% assign grouped = shows | group_by_exp: "show", "show.date | date: '%Y'" %}

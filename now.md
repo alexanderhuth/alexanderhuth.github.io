@@ -9,7 +9,7 @@ permalink: /now/
 
 What I’m doing or focused on right now.
 
-- 🎅🏼 Enjoying Christmas
+- 🎅🏼 Recovering from Christmas (and a cold)
 - 🎓 Teaching Search Marketing at XU in Potsdam
 - 🌍 Tinkering with this little website
 - 📋 Making year-end lists

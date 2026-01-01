@@ -21,6 +21,7 @@ I spend way too much time on/with Letterboxd 🤷‍♀️
 
 ## Films of the Year
 
+- [Best of 2025](https://letterboxd.com/alexanderh/list/best-of-2025/)
 - [Best of 2024](https://letterboxd.com/alexanderh/list/best-of-2024/)
 - [Best of 2023](https://letterboxd.com/alexanderh/list/best-of-2023/)
 - [Best of 2022](https://letterboxd.com/alexanderh/list/best-of-2022/)

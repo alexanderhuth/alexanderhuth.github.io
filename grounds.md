@@ -8,10 +8,6 @@ permalink: /grounds/
 Keeping track of stadiums I've been to for professional sporting events.
 
 ## 2025
-🏉 **Ashton Gate in Bristol on Dec 27**  
-Bristol Bears – Newcastle Red Bulls  
-*Gallagher Prem*
-
 ⚽️ **Red Bull Arena in Leipzig on Dec 20**  
 RB Leipzig 1 – 3 Bayer 04 Leverkusen  
 *Bundesliga*
@@ -65,8 +61,48 @@ Bayer 04 Leverkusen 2 – 0 West Ham United
 Alba Berlin 98 – 88 Ratiopharm Ulm  
 *Basketball-Bundesliga (BBL)*
 
-## 2003 - 2023
+## 2015 - 2023
 tbd.
+
+## 2013
+⚽️ **Olympiastadion Berlin in Berlin on Nov 23**  
+Hertha BSC 0 – 1 Bayer 04 Leverkusen  
+*Bundesliga*
+
+⚽️ **BayArena in Leverkusen on Feb 3**  
+Bayer 04 Leverkusen 2 – 3 Borussia Dortmund  
+*Bundesliga*
+
+🏈 **Candlestick Park in San Francisco on Jan 13**  
+San Francisco 49ers 45 - 31 Green Bay Packers  
+*NFL Playoffs, NFC Divisional Round*
+
+## 2012
+⚽️ **Olympiastadion Berlin in Berlin on May 10**  
+Hertha BSC 1 – 2 Fortuna Düsseldorf  
+*Bundesliga Relegation*
+
+## 2011
+⚽️ **Olympiastadion Berlin in Berlin on Dec 21**  
+Hertha BSC 3 – 1 Kaiserslautern  
+*DFB-Pokal*
+
+⚽️ **Olympiastadion Berlin in Berlin on Nov 26**  
+Hertha BSC 3 – 3 Bayer 04 Leverkusen  
+*Bundesliga*
+
+⚽️ **Olympiastadion Berlin in Berlin on Jul 27**  
+Hertha BSC 1 – 3 Real Madrid  
+*Friendly*
+
+⚽️ **Olympiastadion Berlin in Berlin on Feb 5**  
+Hertha BSC 1 – 2 Union Berlin  
+*2. Bundesliga*
+
+## 2004
+⚽️ **Ostseestadion in Rostock on Mar 20**  
+FC Hansa Rostock 0 – 2 Bayer 04 Leverkusen  
+*Bundesliga*
 
 ## 2002
 ⚽️ **Olympiastadion Berlin in Berlin on May 11**  

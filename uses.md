@@ -21,6 +21,7 @@ Tools, gear, and software I rely on. Inspired by [uses.tech](https://uses.tech).
     - Normcore Spring Loaded Tamper V4
     - Hario V60 Drip Decanter
     - Timemore Black Mirror scales
+    - Coffee Gator Gooseneck Kettle
 
 ## Old tech I still love and use
 - 2016 Bose QuietComfort 35
