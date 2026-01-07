@@ -7,7 +7,7 @@ permalink: /slashes/
 
 # Slash Pages
 
-Simple page listing all my [slash pages](https://slashpages.net).
+Listing all my [slash pages](https://slashpages.net).
 
 <ul>
   {% for page in site.pages %}
