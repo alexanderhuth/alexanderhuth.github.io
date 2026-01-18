@@ -25,6 +25,7 @@ exclude:
   - node_modules
   - vendor
   - README.md
+  - AGENTS.md
 
 # --- Social / Profile links ---
 socials:
